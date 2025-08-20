@@ -15,7 +15,11 @@
     "esModuleInterop": true,
     // если библиотека не имеет дефолтный импорт, можно написать вместо import * as React from "react"; такое import React from "react";
     "allowSyntheticDefaultImports": true,
+    // Для абсолютного импорта
     "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"],
+    },
   },
   "ts-node": {
     "compilerOptions": {
