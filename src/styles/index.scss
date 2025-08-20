@@ -1,0 +1,22 @@
+@use "variables/global";
+@use "theme/light";
+@use "theme/dark";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input,
+button,
+textarea,
+select {
+  margin: 0;
+
+  font: inherit;
+}
+
+.app {
+  min-height: 100vh;
+}
