@@ -9,7 +9,6 @@ export const App = () => {
 
   return (
     <div className={classNames("app", {}, [theme])}>
-      <button onClick={handleTheme}>Theme</button>
       <Navbar />
       <AppRouter />
     </div>
