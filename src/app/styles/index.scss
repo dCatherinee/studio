@@ -23,3 +23,12 @@ select {
   color: var(--color-text);
   background: var(--color-background);
 }
+
+.content-page {
+  display: flex;
+}
+
+.page-wrapper{
+  flex-grow: 1;
+  padding: 16px;
+}

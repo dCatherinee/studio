@@ -10,7 +10,6 @@ export const Navbar = () => {
         <AppLink to={"/"} theme={AppLinkTheme.SECONDARY}>Main</AppLink>
         <AppLink to={"/about"} theme={AppLinkTheme.SECONDARY}>About</AppLink>
       </div>
-      <ThemeSwitcher />
     </div>
   )
 }

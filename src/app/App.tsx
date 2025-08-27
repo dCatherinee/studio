@@ -3,6 +3,7 @@ import { AppRouter } from './providers/RouterProvider';
 import { classNames } from 'shared/lib/classNames/classNames';
 import { Navbar } from 'widgets/Navbar';
 import "./styles/index.scss";
+import { Sidebar } from 'widgets/Sidebar';
 
 export const App = () => {
   const {theme, handleTheme} = useTheme();
@@ -10,7 +11,10 @@ export const App = () => {
   return (
     <div className={classNames("app", {}, [theme])}>
       <Navbar />
-      <AppRouter />
+      <div className="content-page">
+        <Sidebar />
+        <AppRouter />
+      </div>
     </div>
   )
 }
