@@ -9,8 +9,8 @@ export const Navbar = () => {
   return (
     <div className={classNames(cls.wrapper)}>
       <div className={classNames(cls.linksBox)}>
-        <AppLink to={"/"} theme={AppLinkTheme.SECONDARY}>{t("Главная")}</AppLink>
-        <AppLink to={"/about"} theme={AppLinkTheme.SECONDARY}>{t("О нас")}</AppLink>
+        <AppLink to={"/"} theme={AppLinkTheme.SECONDARY}>{t('main')}</AppLink>
+        <AppLink to={"/about"} theme={AppLinkTheme.SECONDARY}>{t('about')}</AppLink>
       </div>
     </div>
   )

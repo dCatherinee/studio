@@ -1,4 +1,6 @@
 {
-  "Тестовый пример": "Test example",
-  "Язык": "English"
+  "theme": "Theme",
+  "main": "Main page",
+  "about": "About us",
+  "lang": "Russian"
 }
