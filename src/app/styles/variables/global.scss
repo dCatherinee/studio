@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 
 :root {
   --font-family-regular: "Montserrat", sans-serif;
@@ -10,17 +10,20 @@
   --font-h1: var(--font-weight-h1) var(--font-size-h1) / var(--font-lh-h1)
     var(--font-family-specific);
 
-    --font-size-h2: 36px;
+  --font-size-h2: 36px;
   --font-weight-h2: 700;
-  --font-h2: var(--font-weight-h2) var(--font-size-h2) var(--font-family-specific);
+  --font-h2: var(--font-weight-h2) var(--font-size-h2)
+    var(--font-family-specific);
 
   --font-size-h3: 24px;
   --font-weight-h3: 600;
-  --font-h3: var(--font-weight-h3) var(--font-size-h3) var(--font-family-specific);
+  --font-h3: var(--font-weight-h3) var(--font-size-h3)
+    var(--font-family-specific);
 
   --font-size-h4: 20px;
   --font-weight-h4: 600;
-  --font-h4: var(--font-weight-h4) var(--font-size-h4) var(--font-family-specific);
+  --font-h4: var(--font-weight-h4) var(--font-size-h4)
+    var(--font-family-specific);
 
   --font-size-p-bold: 16px;
   --font-weight-p-bold: 500;
@@ -48,7 +51,7 @@
 
   // Размеры
   --navbar-height: 60px;
-  
+
   --sidebar-width: 300px;
   --sidebar-width-collapsed: 80px;
 }

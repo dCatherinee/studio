@@ -6,7 +6,7 @@ export enum ThemeButton {
   USUAL = "usual",
   OUTLINE = "outline",
   TEXT = "text",
-} 
+}
 
 interface IButton extends ButtonHTMLAttributes<HTMLButtonElement> {
   children: ReactNode;
@@ -21,7 +21,6 @@ export const Button: FC<IButton> = ({
   disabled,
   ...otherProps
 }) => {
-
   return (
     <button
       className={classNames(cls.btn, {}, [className, cls[theme]])}
