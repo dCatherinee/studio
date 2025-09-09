@@ -1,48 +1,56 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap";
 
 :root {
   --font-family-regular: "Montserrat", sans-serif;
   --font-family-specific: "Playfair Display", serif;
 
+  // Заголовок H1
   --font-size-h1: 48px;
   --font-weight-h1: 700;
   --font-lh-h1: 56px;
   --font-h1: var(--font-weight-h1) var(--font-size-h1) / var(--font-lh-h1)
     var(--font-family-specific);
 
+  // Заголовок H2
   --font-size-h2: 36px;
   --font-weight-h2: 700;
   --font-h2: var(--font-weight-h2) var(--font-size-h2)
     var(--font-family-specific);
 
+  // Заголовок H3
   --font-size-h3: 24px;
   --font-weight-h3: 600;
   --font-h3: var(--font-weight-h3) var(--font-size-h3)
     var(--font-family-specific);
 
+  // Заголовок H4
   --font-size-h4: 20px;
   --font-weight-h4: 600;
   --font-h4: var(--font-weight-h4) var(--font-size-h4)
     var(--font-family-specific);
 
+  // Текст жирный
   --font-size-p-bold: 16px;
   --font-weight-p-bold: 500;
   --font-lh-p-bold: 20px;
-  --font-p-bold: var(--font-weight-p-bold) var(--font-size-p-bold) /
-    var(--font-lh-p-bold) var(--font-family-regular);
+  --font-p-bold: var(--font-weight-p-bold) var(--font-size-p-bold) / var(--font-lh-p-bold)
+   var(--font-family-regular);
 
+  // Текст
   --font-size-p: 16px;
   --font-weight-p: 400;
   --font-lh-p: 20px;
   --font-p: var(--font-weight-p) var(--font-size-p) / var(--font-lh-p)
     var(--font-family-regular);
 
+  // Дополнительный заголовок
   --font-size-subtitle: 14px;
   --font-weight-subtitle: 400;
   --font-lh-subtitle: 20px;
-  --font-subtitle: var(--font-weight-subtitle) var(--font-size-subtitle) /
-    var(--font-lh-subtitle) var(--font-family-regular);
+  --font-subtitle: var(--font-weight-subtitle) var(--font-size-subtitle) / var(--font-lh-subtitle)
+   var(--font-family-regular);
 
+  // Навигация
   --font-size-nav: 18px;
   --font-weight-nav: 500;
   --font-lh-nav: 24px;
@@ -51,7 +59,6 @@
 
   // Размеры
   --navbar-height: 60px;
-
   --sidebar-width: 300px;
   --sidebar-width-collapsed: 80px;
 }

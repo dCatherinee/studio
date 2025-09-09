@@ -8,15 +8,18 @@ import pluginReactHooks from "eslint-plugin-react-hooks";
 import pluginI18n from "eslint-plugin-i18n-json";
 import prettier from "eslint-plugin-prettier";
 import prettierConfig from "eslint-config-prettier";
+import i18next from "eslint-plugin-i18next";
 import { defineConfig } from "eslint/config";
 
 export default defineConfig([
+  i18next.configs["flat/recommended"],
   {
     files: ["**/*.{js,ts,jsx,tsx}"],
     languageOptions: {
       parser: tsParser,
       globals: {
         ...globals.browser,
+        ...globals.jest,
         __IS_DEV__: "readonly",
         __dirname: "readonly",
       },

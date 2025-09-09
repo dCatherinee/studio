@@ -3,17 +3,14 @@
   border: none;
   background: none;
   text-decoration: none;
-
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
   width: 100%;
   padding: 10px 14px;
-
   font: var(--font-p-bold);
   text-align: center;
-
   transition: all 0.2s ease-out;
   cursor: pointer;
 }
@@ -24,15 +21,15 @@
   border-radius: 8px;
 }
 
+.usual:hover {
+  background: var(--color-secondary);
+}
+
 .usual:disabled,
 .usual[disabled],
 .usual:disabled:hover,
 .usual[disabled]:hover {
   background: var(--color-grey);
-}
-
-.usual:hover {
-  background: var(--color-secondary);
 }
 
 .outline {
