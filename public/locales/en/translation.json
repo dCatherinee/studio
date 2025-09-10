@@ -3,5 +3,7 @@
   "about": "About us",
   "lang": "RU",
   "themeLight": "Light theme",
-  "themeDark": "Dark theme"
+  "themeDark": "Dark theme",
+  "pageNotFound": "This page not found :(",
+  "returnToMain": "Return to main"
 }

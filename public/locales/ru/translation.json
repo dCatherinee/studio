@@ -3,5 +3,7 @@
   "about": "О нас",
   "lang": "EN",
   "themeLight": "Светлая тема",
-  "themeDark": "Темная тема"
+  "themeDark": "Темная тема",
+  "pageNotFound": "Вы попали на несуществующую страницу :(",
+  "returnToMain": "Вернуться на главную"
 }

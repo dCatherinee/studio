@@ -12,7 +12,6 @@
     "stylelint": "npx stylelint '**/*.scss'",
     "unit": "jest --config ./config/jest/jest.config.ts"
   },
-  "type": "module",
   "author": "cat guseva",
   "license": "ISC",
   "devDependencies": {
