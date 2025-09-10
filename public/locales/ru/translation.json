@@ -5,5 +5,7 @@
   "themeLight": "Светлая тема",
   "themeDark": "Темная тема",
   "pageNotFound": "Вы попали на несуществующую страницу :(",
-  "returnToMain": "Вернуться на главную"
+  "returnToMain": "Вернуться на главную",
+  "something-went-wrong": "Произошла ошибка",
+  "reload": "Обновить"
 }

@@ -5,5 +5,7 @@
   "themeLight": "Light theme",
   "themeDark": "Dark theme",
   "pageNotFound": "This page not found :(",
-  "returnToMain": "Return to main"
+  "returnToMain": "Return to main",
+  "something-went-wrong": "Something went wrong",
+  "reload": "Reload"
 }
