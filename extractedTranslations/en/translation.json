@@ -3,7 +3,9 @@
   "lang": "lang",
   "main": "main",
   "pageNotFound": "pageNotFound",
+  "reload": "reload",
   "returnToMain": "returnToMain",
+  "something-went-wrong": "something-went-wrong",
   "themeDark": "themeDark",
   "themeLight": "themeLight",
   "title": "title"

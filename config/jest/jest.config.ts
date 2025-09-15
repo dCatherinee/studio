@@ -4,6 +4,7 @@
  */
 
 import type { Config } from "jest";
+import path from "path";
 
 const config: Config = {
   // All imported modules in your tests should be mocked automatically
@@ -42,10 +43,20 @@ const config: Config = {
   ],
 
   // The root directory that Jest should scan for tests and modules within
-  rootDir: '../../',
-  
+  rootDir: "../../",
+
   // The glob patterns Jest uses to detect test files
   testMatch: ["**/*(*.)@(spec|test).[tj]s?(x)"],
+
+  modulePaths: ["<rootDir>src"],
+
+  // file for jest-dom
+  setupFilesAfterEnv: ["<rootDir>config/jest/setupTest.ts"],
+
+  moduleNameMapper: {
+    "\\.s?css$": "identity-obj-proxy",
+    "\\.svg": path.resolve(__dirname, "jestEmptyComponent.tsx"),
+  },
 
   // Indicates whether the coverage information should be collected while executing the test
   // collectCoverage: false,
