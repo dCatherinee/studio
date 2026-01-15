@@ -20,7 +20,7 @@ export const NotFoundPage: FC<NotFoundPageProps> = props => {
       <p className={classNames(cls.text)}>{t("pageNotFound")}</p>
       <Button
         theme={ThemeButton.USUAL}
-        onClick={() => navigate(RoutePath[AppRoutes.MAIN])}
+        onClick={() => navigate(RoutePath[AppRoutes.MAIN])} // Ошибка в Storybook из-за роутов, потому что там тоже есть импорт этой страницы, Нужно от этого как-то избавится
         className={cls.btnWrap}
       >
         {t("returnToMain")}

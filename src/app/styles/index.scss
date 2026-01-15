@@ -23,6 +23,11 @@ select {
   background: var(--color-background);
 }
 
+.storybook {
+  font: var(--font-p);
+  color: var(--color-text);
+}
+
 .contentPage {
   display: flex;
 }

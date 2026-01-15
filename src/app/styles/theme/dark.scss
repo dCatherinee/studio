@@ -1,9 +1,11 @@
-.app.dark {
+.app.dark,
+.storybook.dark {
   // Main colors
   --color-primary: #d38b33;
   --color-secondary: #ef6843;
   --color-additional: #3f382d;
   --color-text: #e7cea4;
+  --color-text-reverse: #261d1b;
   --color-link: #235ca3;
   --color-background: #15130f;
 

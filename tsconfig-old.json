@@ -15,16 +15,23 @@
     "esModuleInterop": true,
     // если библиотека не имеет дефолтный импорт, можно написать вместо import * as React from "react"; такое import React from "react";
     "allowSyntheticDefaultImports": true,
+    "allowImportingTsExtensions": true,
+    "allowArbitraryExtensions": true,
     // Для абсолютного импорта
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
-      "*": ["./src/*"]
-    }
+      "*": ["*"]
+    },
+    "noEmit": true
   },
-  "include": ["src/**/*", "./config/jest/setupTest.ts"],
+  "include": [],
   "ts-node": {
     "compilerOptions": {
       "module": "CommonJS"
     }
-  }
+  },
+  "references": [
+    { "path": "./tsconfig.stories.json" },
+    { "path": "./tsconfig.build.json" }
+  ]
 }

@@ -1,9 +1,11 @@
-.app.light {
+.app.light,
+.storybook.light {
   // Main colors
   --color-primary: #d38b33;
   --color-secondary: #4a1a0d;
   --color-additional: #2a251e;
   --color-text: #261d1b;
+  --color-text-reverse: #e7cea4;
   --color-link: #2c74cc;
   --color-background: #e7cea4;
 
