@@ -56,6 +56,7 @@ const config: Config = {
   moduleNameMapper: {
     "\\.s?css$": "identity-obj-proxy",
     "\\.svg": path.resolve(__dirname, "jestEmptyComponent.tsx"),
+    "\\.(png)$": path.resolve(__dirname, "jestEmptyAssets.js"),
   },
 
   // Indicates whether the coverage information should be collected while executing the test
